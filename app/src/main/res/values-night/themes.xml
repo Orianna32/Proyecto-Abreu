@@ -3,5 +3,10 @@
     <style name="Base.Theme.Abreu" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+
+        <item name="colorPrimary">@color/Turquesa </item>
+        <item name="colorPrimaryDark">@color/TurquesaClaro </item>
+        <item name="colorAccent">@color/Azul </item>
+
     </style>
 </resources>

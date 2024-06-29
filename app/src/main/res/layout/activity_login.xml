@@ -5,8 +5,6 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    android:backgroundTint="@color/white"
     tools:context=".Login">
 
     <androidx.constraintlayout.widget.Guideline
@@ -38,7 +36,7 @@
         app:srcCompat="@mipmap/ic_launcher" />
 
     <EditText
-        android:id="@+id/txcorreo"
+        android:id="@+id/txCorreo"
         android:layout_width="231dp"
         android:layout_height="55dp"
         android:layout_marginStart="150dp"
@@ -48,14 +46,14 @@
         android:hint="Correo"
         android:inputType="text"
         android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextNumberPassword"
+        app:layout_constraintBottom_toTopOf="@+id/txContraseña"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <EditText
-        android:id="@+id/editTextNumberPassword"
+        android:id="@+id/txContraseña"
         android:layout_width="237dp"
         android:layout_height="57dp"
         android:layout_marginStart="150dp"
@@ -69,7 +67,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txcorreo"
+        app:layout_constraintTop_toBottomOf="@+id/txCorreo"
         app:layout_constraintVertical_bias="0.075" />
 
     <Button
@@ -79,7 +77,6 @@
         android:layout_marginStart="88dp"
         android:layout_marginTop="4dp"
         android:layout_marginEnd="87dp"
-        android:backgroundTint="#159A9B"
         android:text="Ingresar"
         android:textColor="@color/black"
         android:textColorHint="@color/black"
@@ -88,7 +85,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.54"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumberPassword"
+        app:layout_constraintTop_toBottomOf="@+id/txContraseña"
         app:layout_constraintVertical_bias="0.161" />
 
     <Button
@@ -96,7 +93,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="29dp"
-        android:backgroundTint="#159A9B"
         android:text="Cancelar"
         android:textColor="@color/black"
         android:textColorLink="@color/black"
